@@ -9,4 +9,16 @@
         display: block;
         max-width: 94%;
     }
+
+    .forecast{
+        display: inline;
+    }
+    
+    .article {
+    grid-template-columns: 1fr 1fr;
+    }
+    .contact{
+        grid-template-columns: 1fr 1fr;
+    
+    }
 }

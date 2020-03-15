@@ -39,6 +39,11 @@ nav {
 section:nth-child(odd) {
 	flex-direction: row-reverse;
 }
+
+.article{
+		
+    grid-template-columns: 1fr 1fr;
+}
     
 }
     
