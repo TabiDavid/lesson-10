@@ -39,13 +39,21 @@ nav {
 h3 {
     display: flex;
   justify-content: center;
-   
-    
+  
 }
 
-table{
-    border: orangered solid;
+td, th {
+    border: rgb(116, 15, 74) solid;
+    margin: auto;
+    padding: 5px;
 }
+
+.img1 {
+  display: block;  
+
+}
+
+
 
     
 }
