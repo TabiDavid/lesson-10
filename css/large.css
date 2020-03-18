@@ -1,24 +1,4 @@
 @media only screen and (min-width: 64em) {
 
 
-    .cards {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-    }
-    .townsection {
-        display: block;
-        max-width: 94%;
-    }
-
-    .forecast{
-        display: inline;
-    }
-    
-    .article {
-    grid-template-columns: 1fr 1fr;
-    }
-    .contact{
-        grid-template-columns: 1fr 1fr;
-    
-    }
 }

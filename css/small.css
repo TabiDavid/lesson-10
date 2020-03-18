@@ -1,8 +1,6 @@
 /*size for phones and another devices*/
-body {
-	background-color: #bbb;
-	padding: 0;
-	margin: 0;
+* {
+box-sizing: border-box;
 }
 
 #pancake{
@@ -97,68 +95,29 @@ nav {
 .responsive li {
     display: block;
 }  
-
-.townsection {
-
-    display: block;
-    margin: auto;
-    border: 1px black solid;
-    background-color: rgb(235, 220, 137);
-    max-width: 80%;
-    padding: 10px;
-    border-radius: 6px;
-}
-
-.cards section:hover {
-    background-color: whitesmoke;
-}
-
-
-h3 {
-    text-align: center;
-}
-
-.townp {
-    text-align: center;
-    font-family: 'Roboto' ;
-    
-}
-
-.townimage {
-    display: block;
-    width: 85%;
-    height: 300px;
-    margin: 10px auto;
-    box-shadow: 0 0 10px #1b1a1d;
-}
-
-footer {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 main{
-    background-color: #DCCCFF;
+    background-color: rgb(139, 167, 218);
     padding: 8px;
+    width: 900px;
+    margin: auto;
     
     }
-    h2, h3{
+    h2 {
         padding: 25px;
         text-align: center;
         font-size: large;
         
     }
-    
-    main img{
-        width: 100%;
-        height: 300px;
-    }
-    
     .herodiv{
         margin: 0 auto;
         position: relative;
     
     }
+    #landscape {
+        width: 100%;
+    }
+    
+    
     #weathersummary{
         position: absolute;
         top: 50px;
@@ -169,71 +128,37 @@ main{
     
     }
     .forecast{
+        display: none; 
+        
+    }
+    h3 {
         display: none;
     }
-    .allboxes{
-        text-align: center;
-        
-    }
-    
-    .box {
-        
-        display: inline-block;
-        width: 100px;
-        height: 100px;
-        background: rgb(175, 120, 211);
-        color: white;
-    }
-    
-    .label {
+   
+    article {
+        align-content: center;
+        padding: 25px;
         display: block;
-        padding: 5px;
     }
-    .icon{
-        display: block;
-        padding: 5px;
-    }
-    .detail{
-        display: block;
-        padding: 5px;
-    }
+
+    article img {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+    article div {
+  width: 100%;
+  padding: 50px;
+}
+   
+
+
+   
+
     
-    .article{
-    
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 8px;
-        width: 100%;
-        
-        
-    
-    }
-    section img{
-        width: 100%;
-       
-        margin: 0;
-        padding: 5px;
-    
-    }
-    .paragraph{
-        display: inline-block;
-        margin: 0;
-        padding: 5px;
-    
-    }
-    
-    .contact{
-        
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 8px;
-        width: 100%;
-        
-    }
-    .map{
-        width: 100%;
-    }
-    .info{
-        text-align: center;
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
     }
     
