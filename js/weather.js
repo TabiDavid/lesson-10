@@ -30,7 +30,7 @@ fetch(apiURL2)
     let fivedayforecast = [];
     let day = 1;
     let weekday = [];
-    var days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+    var days = new Array('Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat');
 
     for (let i = 0; i < jsObject2.list.length && day < 6; i++) {
       if (jsObject2.list[i].dt_txt.includes("18:00:00")) {
